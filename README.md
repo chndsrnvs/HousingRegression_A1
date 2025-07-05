@@ -1,32 +1,35 @@
-# HousingRegression
+# 🏠 HousingRegression: Predicting Boston Home Prices
 
-## Project Overview
+## 🔍 Project Summary
 
-This project predicts house prices using classical regression models on the Boston Housing dataset. It includes loading the dataset manually, comparing multiple regression models, hyperparameter tuning, and automating the workflow with GitHub Actions as part of an MLOps assignment.
-
----
-
-## Repository Structure
-
-- `.github/workflows/ci.yml` — GitHub Actions workflow for CI pipeline  
-- `utils.py` — Functions for data loading, splitting, training, and evaluation  
-- `regression.py` — Script to run regression models and output results  
-- `requirements.txt` — Project dependencies  
-- `README.md` — This file
+This project aims to predict housing prices based on features from the Boston Housing dataset using multiple regression models. It includes manual data handling, model comparisons, hyperparameter tuning, and MLOps automation via GitHub Actions. The work reflects an end-to-end machine learning workflow with reproducibility and modular code practices.
 
 ---
 
-## Branches
+## 📁 Repository Layout
 
-- `main` — Primary branch containing final merged code  
-- `reg` — Branch with regression models implemented  
-- `hyper` — Branch with hyperparameter tuning added
+- `.github/workflows/ci.yml` — CI workflow using GitHub Actions  
+- `regression.py` — Implements various regression models  
+- `hyper.py` — Performs hyperparameter tuning across models  
+- `utils.py` — Modular functions for data loading, splitting, training, and evaluation  
+- `requirements.txt` — Package dependencies  
+- `README.md` — Project documentation  
 
 ---
 
-## Setup Instructions
+## 🌿 Branch Structure
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/maste21/HousingRegression.git
-   cd HousingRegression
+- `main` — Final merged codebase  
+- `reg_branch` — Baseline regression models and performance evaluations  
+- `hyper_branch` — Extended with hyperparameter optimization and tuned model runs  
+
+---
+
+## ⚙️ Environment Setup
+
+To create and activate the Conda environment:
+
+```bash
+conda create -n housing_env python=3.9 -y
+conda activate housing_env
+pip install -r requirements.txt
