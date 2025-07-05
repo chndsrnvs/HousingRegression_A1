@@ -1,12 +1,12 @@
-# 🏠 HousingRegression: Predicting Boston Home Prices
+# HousingRegression: Predicting Boston Home Prices
 
-## 🔍 Project Summary
+## Project Summary
 
 This project aims to predict housing prices based on features from the Boston Housing dataset using multiple regression models. It includes manual data handling, model comparisons, hyperparameter tuning, and MLOps automation via GitHub Actions. The work reflects an end-to-end machine learning workflow with reproducibility and modular code practices.
 
 ---
 
-## 📁 Repository Layout
+## Repository Layout
 
 - `.github/workflows/ci.yml` — CI workflow using GitHub Actions  
 - `regression.py` — Implements various regression models  
@@ -17,7 +17,7 @@ This project aims to predict housing prices based on features from the Boston Ho
 
 ---
 
-## 🌿 Branch Structure
+## Branch Structure
 
 - `main` — Final merged codebase  
 - `reg_branch` — Baseline regression models and performance evaluations  
@@ -25,7 +25,7 @@ This project aims to predict housing prices based on features from the Boston Ho
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 To replicate the project locally:
 
@@ -39,7 +39,7 @@ This ensures consistent package versions for regression modeling and automated r
 
 ---
 
-## ▶️ Script Execution
+## Script Execution
 
 Use the following commands to run your model scripts manually:
 
@@ -55,7 +55,7 @@ Both scripts will output key evaluation metrics using the dataset loaded via `ut
 
 ---
 
-## 📊 Model Performance Summary
+## Model Performance Summary
 
 | Model                       | MSE    | R² Score |
 |-----------------------------|--------|----------|
@@ -69,7 +69,7 @@ Both scripts will output key evaluation metrics using the dataset loaded via `ut
 
 ---
 
-## 🤖 Continuous Integration via GitHub Actions
+## Continuous Integration via GitHub Actions
 
 This repository uses a CI pipeline triggered automatically by branch updates. The workflow configuration (`ci.yml`) includes:
 
